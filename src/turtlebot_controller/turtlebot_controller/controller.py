@@ -18,12 +18,15 @@ class TurtlebotController(Node):
         
         self.timer = self.create_timer(0.1, self.control_loop)
         
-        self.Kp = 0.8
-        self.Ki = 0.01
-        self.Kh = 1.2
+        self.Kp = 1.2
+        self.Ki = 0.00
+        self.Kh = 2.0
         self.dt = 0.1
-        
-        self.d_star = 0.3
+       
+        self.v_max = 0.7
+        self.w_max = 2.5
+
+        self.d_star = 0.1
 
         self.e_int = 0 # integral error
         
@@ -42,16 +45,24 @@ class TurtlebotController(Node):
         self.x = msg.pose.pose.position.x
         self.y = msg.pose.pose.position.y
         q = msg.pose.pose.orientation
-        yaw = math.atan2(2.0 * (q.w * q.z + q.x * q.y), 1- 2.0*(q.y * q.y + q.z * q.z))
+        n = (q.x * q.x + q.y * q.y + q.z * q.z + q.w * q.w)**2
+        x,y,z,w = q.x/n, q.y/n, q.z/n, q.w/n 
+        yaw = math.atan2(2.0 * (w*z + x*y), 1.0 - 2.0*(y*y+z*z))
+        
         self.theta = yaw
         
+
+
     def control_loop(self):
         self.t += self.dt
         
         # 8 trajectory (surely)
-        x_star = 3.0 * math.sin(0.2*self.t)
-        y_star = 3.0 * math.sin(0.2*self.t) * math.cos(0.2 * self.t)
+       # x_star = 3.5 * math.sin(0.10*self.t)
+       # y_star = 3.5 * math.sin(0.10*self.t) * math.cos(0.10 * self.t)
         
+        x_star = 0.2*self.t
+        y_star = 0.2*self.t
+
         self.traj_x.append(x_star)
         self.traj_y.append(y_star)
         self.path_x.append(self.x)
@@ -60,16 +71,17 @@ class TurtlebotController(Node):
         
         e = math.hypot(x_star - self.x, y_star - self.y) - self.d_star
         self.e_int += e * self.dt
-        self.e_int = max(min(self.e_int, 1.0), -1.0) 
+        self.e_int = 0
+        #self.e_int = max(min(self.e_int, 1.0), -1.0) 
         
         v = self.Kp * e + self.Ki * self.e_int
-        v = max(min(v, 0.4), -0.4)
+        v = max(min(v, self.v_max), -self.v_max)
 
         theta_star = math.atan2(y_star - self.y, x_star - self.x)
         
         a = self.Kh * (theta_star - self.theta)
         a = (a + math.pi) % (2 * math.pi) - math.pi
-        a = max(min(a, 1.5), -1.5)
+        a = max(min(a, self.w_max), -self.w_max)
         twist = Twist()
         twist.linear.x = v
         twist.angular.z = a
