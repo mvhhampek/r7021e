@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/crazyflie_controller/crazyflie_controller.egg-info/PKG-INFO
+../../build/crazyflie_controller/crazyflie_controller.egg-info/SOURCES.txt
+../../build/crazyflie_controller/crazyflie_controller.egg-info/dependency_links.txt
+../../build/crazyflie_controller/crazyflie_controller.egg-info/requires.txt
+../../build/crazyflie_controller/crazyflie_controller.egg-info/top_level.txt
+../../build/crazyflie_controller/crazyflie_controller.egg-info/zip-safe
+crazyflie_controller/__init__.py
+resource/crazyflie_controller
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

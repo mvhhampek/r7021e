@@ -1,0 +1,19 @@
+[2.684s] Invoking command in '/home/ubuntuuser/ros2_ws/src/crazyflie_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntuuser/ros2_ws/build/crazyflie_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntuuser/ros2_ws/install/crazyflie_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/crazyflie_controller build --build-base /home/ubuntuuser/ros2_ws/build/crazyflie_controller/build install --record /home/ubuntuuser/ros2_ws/build/crazyflie_controller/install.log --single-version-externally-managed install_data
+[3.328s] running egg_info
+[3.405s] writing ../../build/crazyflie_controller/crazyflie_controller.egg-info/PKG-INFO
+[3.406s] writing dependency_links to ../../build/crazyflie_controller/crazyflie_controller.egg-info/dependency_links.txt
+[3.406s] writing requirements to ../../build/crazyflie_controller/crazyflie_controller.egg-info/requires.txt
+[3.406s] writing top-level names to ../../build/crazyflie_controller/crazyflie_controller.egg-info/top_level.txt
+[3.506s] reading manifest file '../../build/crazyflie_controller/crazyflie_controller.egg-info/SOURCES.txt'
+[3.507s] writing manifest file '../../build/crazyflie_controller/crazyflie_controller.egg-info/SOURCES.txt'
+[3.508s] running build
+[3.508s] running build_py
+[3.509s] running install
+[3.545s] running install_lib
+[3.607s] running install_data
+[3.607s] running install_egg_info
+[3.745s] removing '/home/ubuntuuser/ros2_ws/install/crazyflie_controller/lib/python3.12/site-packages/crazyflie_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[3.746s] Copying ../../build/crazyflie_controller/crazyflie_controller.egg-info to /home/ubuntuuser/ros2_ws/install/crazyflie_controller/lib/python3.12/site-packages/crazyflie_controller-0.0.0-py3.12.egg-info
+[3.767s] running install_scripts
+[4.302s] writing list of installed files to '/home/ubuntuuser/ros2_ws/build/crazyflie_controller/install.log'
+[4.788s] Invoked command in '/home/ubuntuuser/ros2_ws/src/crazyflie_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntuuser/ros2_ws/build/crazyflie_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntuuser/ros2_ws/install/crazyflie_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/crazyflie_controller build --build-base /home/ubuntuuser/ros2_ws/build/crazyflie_controller/build install --record /home/ubuntuuser/ros2_ws/build/crazyflie_controller/install.log --single-version-externally-managed install_data

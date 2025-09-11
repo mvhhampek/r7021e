@@ -1,0 +1,5 @@
+  File "/home/ubuntuuser/ros2_ws/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller/controller.py", line 102
+    while t <= 10.0
+                   ^
+SyntaxError: expected ':'
+

@@ -1,0 +1,116 @@
+[0.544s] Invoking command in '/home/ubuntuuser/ros2_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntuuser/ws/install/test_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntuuser/ros2_ws/src/crazyswarm2/crazyflie_sim -DCMAKE_INSTALL_PREFIX=/home/ubuntuuser/ros2_ws/install/crazyflie_sim
+[0.613s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.126s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.345s] -- Found ament_cmake_pytest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[4.761s] -- Configuring done (4.2s)
+[4.825s] -- Generating done (0.1s)
+[4.838s] -- Build files have been written to: /home/ubuntuuser/ros2_ws/build/crazyflie_sim
+[4.854s] Invoked command in '/home/ubuntuuser/ros2_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntuuser/ws/install/test_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntuuser/ros2_ws/src/crazyswarm2/crazyflie_sim -DCMAKE_INSTALL_PREFIX=/home/ubuntuuser/ros2_ws/install/crazyflie_sim
+[4.855s] Invoking command in '/home/ubuntuuser/ros2_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntuuser/ws/install/test_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntuuser/ros2_ws/build/crazyflie_sim -- -j4 -l4
+[5.027s] Built target ament_cmake_python_symlink_crazyflie_sim
+[5.027s] Built target ament_cmake_python_symlink_crazyflie_sim_setup
+[5.410s] running egg_info
+[5.410s] running install_scripts
+[5.432s] writing crazyflie_sim.egg-info/PKG-INFO
+[5.432s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[5.433s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[5.433s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[5.477s] /usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[5.477s] !!
+[5.477s] 
+[5.477s]         ********************************************************************************
+[5.477s]         Please avoid running ``setup.py`` directly.
+[5.481s]         Instead, use pypa/build, pypa/installer or other
+[5.481s]         standards-based tools.
+[5.481s] 
+[5.481s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[5.481s]         ********************************************************************************
+[5.481s] 
+[5.482s] !!
+[5.482s]   self.initialize_options()
+[5.493s] running egg_info
+[5.569s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[5.570s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[5.581s] writing crazyflie_sim.egg-info/PKG-INFO
+[5.582s] writing dependency_links to crazyflie_sim.egg-info/dependency_links.txt
+[5.583s] writing entry points to crazyflie_sim.egg-info/entry_points.txt
+[5.583s] writing top-level names to crazyflie_sim.egg-info/top_level.txt
+[5.625s] Built target ament_cmake_python_build_crazyflie_sim_egg
+[5.652s] reading manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[5.658s] writing manifest file 'crazyflie_sim.egg-info/SOURCES.txt'
+[5.851s] Installing crazyflie_server script to scripts
+[5.908s] Built target ament_cmake_python_build_crazyflie_sim_scripts
+[5.962s] Invoked command in '/home/ubuntuuser/ros2_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntuuser/ws/install/test_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntuuser/ros2_ws/build/crazyflie_sim -- -j4 -l4
+[5.986s] Invoking command in '/home/ubuntuuser/ros2_ws/build/crazyflie_sim': AMENT_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntuuser/ws/install/test_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntuuser/ros2_ws/build/crazyflie_sim
+[5.987s] -- Install configuration: ""
+[5.987s] -- Execute custom install script
+[5.992s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.sh
+[5.994s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/pythonpath.dsv
+[6.001s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim-1.0.3-py3.12.egg-info/PKG-INFO
+[6.002s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim-1.0.3-py3.12.egg-info/SOURCES.txt
+[6.005s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim-1.0.3-py3.12.egg-info/dependency_links.txt
+[6.006s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim-1.0.3-py3.12.egg-info/entry_points.txt
+[6.008s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim-1.0.3-py3.12.egg-info/top_level.txt
+[6.011s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/crazyflie_sim//crazyflie_server
+[6.025s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/__init__.py
+[6.030s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/dynobench/crazyflie2.yaml
+[6.035s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2/phi_G.pth
+[6.036s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2/phi_L.pth
+[6.036s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2/phi_S.pth
+[6.038s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2/rho_L.pth
+[6.039s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2/rho_S.pth
+[6.042s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/pinocchio/crazyflie2.urdf
+[6.046s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/dynobench.py
+[6.046s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/neuralswarm.py
+[6.050s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/none.py
+[6.051s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/np.py
+[6.054s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/pinocchio.py
+[6.054s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/crazyflie_server.py
+[6.057s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/crazyflie_sil.py
+[6.061s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/sim_data_types.py
+[6.062s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/README.md
+[6.064s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/blender.py
+[6.069s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/README.md
+[6.072s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/abandoned_greenhouse.jpg
+[6.076s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/aerodynamics_workshop.jpg
+[6.078s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/aviation_museum.jpg
+[6.082s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/crosswalk.jpg
+[6.086s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/derelict_overpass.jpg
+[6.094s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/env.jpg
+[6.095s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/lago_disola.jpg
+[6.095s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/lake_pier.jpg
+[6.098s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/machine_shop.jpg
+[6.100s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/museumplein.jpg
+[6.108s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/peppermint_powerplant.jpg
+[6.109s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env/studio_garden.jpg
+[6.118s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/model/cf.mtl
+[6.118s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/model/cf.obj
+[6.118s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/pdf.py
+[6.119s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/record_states.py
+[6.120s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/rviz.py
+[6.128s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/package_run_dependencies/crazyflie_sim
+[6.135s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/parent_prefix_path/crazyflie_sim
+[6.138s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.sh
+[6.142s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/ament_prefix_path.dsv
+[6.143s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.sh
+[6.143s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/environment/path.dsv
+[6.144s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.bash
+[6.146s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.sh
+[6.148s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.zsh
+[6.149s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/local_setup.dsv
+[6.149s] -- Symlinking: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.dsv
+[6.193s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/ament_index/resource_index/packages/crazyflie_sim
+[6.196s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig.cmake
+[6.198s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/cmake/crazyflie_simConfig-version.cmake
+[6.200s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_sim/share/crazyflie_sim/package.xml
+[6.283s] Listing '/home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim'...
+[6.283s] Listing '/home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend'...
+[6.283s] Listing '/home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data'...
+[6.284s] Listing '/home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/dynobench'...
+[6.284s] Listing '/home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/neuralswarm2'...
+[6.284s] Listing '/home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/backend/data/pinocchio'...
+[6.284s] Listing '/home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization'...
+[6.284s] Listing '/home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data'...
+[6.284s] Listing '/home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/env'...
+[6.284s] Listing '/home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages/crazyflie_sim/visualization/data/model'...
+[6.304s] Invoked command in '/home/ubuntuuser/ros2_ws/build/crazyflie_sim' returned '0': AMENT_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntuuser/ws/install/test_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ubuntuuser/ros2_ws/build/crazyflie_sim

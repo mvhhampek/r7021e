@@ -1,0 +1,2 @@
+[console_scripts]
+controller = turtlebot_controller.controller:main

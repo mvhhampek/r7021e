@@ -1,0 +1,501 @@
+[0.155s] Invoking command in '/home/ubuntuuser/ros2_ws/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntuuser/ros2_ws/install/turtlebot_controller:/home/ubuntuuser/ros2_ws/install/crazyflie_py:/home/ubuntuuser/ros2_ws/install/crazyflie_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntuuser/ros2_ws/build/crazyflie_interfaces -- -j4 -l4
+[0.653s] [  0%] Built target crazyflie_interfaces__rosidl_generator_type_description
+[0.854s] [  0%] Built target ament_cmake_python_symlink_crazyflie_interfaces
+[1.028s] [ 28%] Built target crazyflie_interfaces__rosidl_generator_c
+[1.953s] running egg_info
+[2.031s] writing crazyflie_interfaces.egg-info/PKG-INFO
+[2.033s] writing dependency_links to crazyflie_interfaces.egg-info/dependency_links.txt
+[2.034s] writing top-level names to crazyflie_interfaces.egg-info/top_level.txt
+[2.260s] reading manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'
+[2.262s] writing manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'
+[2.518s] [ 28%] Built target ament_cmake_python_build_crazyflie_interfaces_egg
+[2.748s] [ 38%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_c
+[2.928s] [ 48%] Built target crazyflie_interfaces__rosidl_typesupport_c
+[3.501s] [ 58%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_c
+[3.795s] [ 58%] Built target crazyflie_interfaces__cpp
+[3.860s] [ 68%] Built target crazyflie_interfaces__rosidl_typesupport_cpp
+[3.927s] [ 78%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_cpp
+[3.996s] [ 87%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.047s] [ 87%] Built target crazyflie_interfaces
+[4.099s] [ 87%] Built target crazyflie_interfaces__py
+[4.297s] [ 97%] Built target crazyflie_interfaces__rosidl_generator_py
+[4.460s] [ 98%] Built target crazyflie_interfaces_s__rosidl_typesupport_fastrtps_c
+[4.554s] [ 99%] Built target crazyflie_interfaces_s__rosidl_typesupport_c
+[4.829s] [100%] Built target crazyflie_interfaces_s__rosidl_typesupport_introspection_c
+[4.934s] Invoked command in '/home/ubuntuuser/ros2_ws/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntuuser/ros2_ws/install/turtlebot_controller:/home/ubuntuuser/ros2_ws/install/crazyflie_py:/home/ubuntuuser/ros2_ws/install/crazyflie_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntuuser/ros2_ws/build/crazyflie_interfaces -- -j4 -l4
+[4.935s] Invoking command in '/home/ubuntuuser/ros2_ws/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntuuser/ros2_ws/install/turtlebot_controller:/home/ubuntuuser/ros2_ws/install/crazyflie_py:/home/ubuntuuser/ros2_ws/install/crazyflie_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntuuser/ros2_ws/build/crazyflie_interfaces
+[4.959s] -- Install configuration: ""
+[4.965s] -- Execute custom install script
+[4.967s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/ament_index/resource_index/rosidl_interfaces/crazyflie_interfaces
+[4.970s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/ConnectionStatistics.json
+[4.970s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/ConnectionStatisticsArray.json
+[4.970s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/FullState.json
+[4.970s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/LogDataGeneric.json
+[4.971s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Hover.json
+[4.971s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/LogBlock.json
+[4.972s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Position.json
+[4.972s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Status.json
+[4.973s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/TrajectoryPolynomialPiece.json
+[4.974s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/VelocityWorld.json
+[4.977s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/GoTo.json
+[4.983s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Land.json
+[4.989s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/NotifySetpointsStop.json
+[4.995s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/SetGroupMask.json
+[4.995s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/StartTrajectory.json
+[4.996s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Stop.json
+[4.997s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Takeoff.json
+[5.008s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UpdateParams.json
+[5.008s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UploadTrajectory.json
+[5.010s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/RemoveLogging.json
+[5.011s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/AddLogging.json
+[5.012s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Arm.json
+[5.017s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/connection_statistics.h
+[5.017s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/connection_statistics_array.h
+[5.018s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__functions.h
+[5.019s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__struct.h
+[5.019s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__type_support.h
+[5.020s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__functions.h
+[5.020s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__struct.h
+[5.021s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__type_support.h
+[5.021s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__functions.h
+[5.022s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__struct.h
+[5.023s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__type_support.h
+[5.023s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__functions.h
+[5.024s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__struct.h
+[5.024s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__type_support.h
+[5.025s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__functions.h
+[5.026s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__struct.h
+[5.026s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__type_support.h
+[5.026s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__functions.h
+[5.027s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__struct.h
+[5.027s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__type_support.h
+[5.028s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__functions.h
+[5.028s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__struct.h
+[5.029s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__type_support.h
+[5.030s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__functions.h
+[5.030s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__struct.h
+[5.031s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__type_support.h
+[5.031s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__functions.h
+[5.032s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__struct.h
+[5.032s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__type_support.h
+[5.033s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__functions.h
+[5.033s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__struct.h
+[5.034s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__type_support.h
+[5.034s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/full_state.h
+[5.035s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/hover.h
+[5.035s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/log_block.h
+[5.036s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/log_data_generic.h
+[5.037s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/position.h
+[5.037s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.037s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/status.h
+[5.038s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/trajectory_polynomial_piece.h
+[5.038s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/velocity_world.h
+[5.039s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/add_logging.h
+[5.039s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/arm.h
+[5.040s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__functions.h
+[5.040s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__struct.h
+[5.041s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__type_support.h
+[5.042s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__functions.h
+[5.042s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__struct.h
+[5.042s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__type_support.h
+[5.043s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__functions.h
+[5.043s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__struct.h
+[5.044s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__type_support.h
+[5.045s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__functions.h
+[5.045s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__struct.h
+[5.045s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__type_support.h
+[5.048s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__functions.h
+[5.053s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__struct.h
+[5.054s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__type_support.h
+[5.054s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__functions.h
+[5.055s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__struct.h
+[5.056s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__type_support.h
+[5.056s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__functions.h
+[5.057s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__struct.h
+[5.057s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__type_support.h
+[5.058s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__functions.h
+[5.058s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__struct.h
+[5.059s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__type_support.h
+[5.060s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__functions.h
+[5.062s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__struct.h
+[5.062s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__type_support.h
+[5.066s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__functions.h
+[5.069s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__struct.h
+[5.075s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__type_support.h
+[5.075s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__functions.h
+[5.075s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__struct.h
+[5.077s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__type_support.h
+[5.077s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__functions.h
+[5.077s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__struct.h
+[5.081s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__type_support.h
+[5.083s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/go_to.h
+[5.085s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/land.h
+[5.086s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/notify_setpoints_stop.h
+[5.086s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/remove_logging.h
+[5.087s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/set_group_mask.h
+[5.087s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/start_trajectory.h
+[5.088s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/stop.h
+[5.088s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/takeoff.h
+[5.098s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/update_params.h
+[5.098s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/upload_trajectory.h
+[5.102s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/library_path.sh
+[5.103s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/library_path.dsv
+[5.106s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__rosidl_typesupport_fastrtps_c.h
+[5.107s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__rosidl_typesupport_fastrtps_c.h
+[5.108s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__rosidl_typesupport_fastrtps_c.h
+[5.108s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__rosidl_typesupport_fastrtps_c.h
+[5.108s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__rosidl_typesupport_fastrtps_c.h
+[5.114s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__rosidl_typesupport_fastrtps_c.h
+[5.114s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[5.114s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[5.114s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__rosidl_typesupport_fastrtps_c.h
+[5.115s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__rosidl_typesupport_fastrtps_c.h
+[5.116s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.117s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__rosidl_typesupport_fastrtps_c.h
+[5.118s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__rosidl_typesupport_fastrtps_c.h
+[5.119s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__rosidl_typesupport_fastrtps_c.h
+[5.120s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__rosidl_typesupport_fastrtps_c.h
+[5.120s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__rosidl_typesupport_fastrtps_c.h
+[5.121s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__rosidl_typesupport_fastrtps_c.h
+[5.122s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__rosidl_typesupport_fastrtps_c.h
+[5.122s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__rosidl_typesupport_fastrtps_c.h
+[5.123s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__rosidl_typesupport_fastrtps_c.h
+[5.124s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__rosidl_typesupport_fastrtps_c.h
+[5.124s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__rosidl_typesupport_fastrtps_c.h
+[5.125s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__rosidl_typesupport_fastrtps_c.h
+[5.133s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/connection_statistics.hpp
+[5.134s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/connection_statistics_array.hpp
+[5.134s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__builder.hpp
+[5.135s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__struct.hpp
+[5.136s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__traits.hpp
+[5.137s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__type_support.hpp
+[5.138s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__builder.hpp
+[5.138s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__struct.hpp
+[5.139s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__traits.hpp
+[5.139s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__type_support.hpp
+[5.140s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__builder.hpp
+[5.140s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__struct.hpp
+[5.141s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__traits.hpp
+[5.145s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__type_support.hpp
+[5.145s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__builder.hpp
+[5.146s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__struct.hpp
+[5.146s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__traits.hpp
+[5.147s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__type_support.hpp
+[5.148s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__builder.hpp
+[5.149s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__struct.hpp
+[5.150s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__traits.hpp
+[5.151s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__type_support.hpp
+[5.152s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__builder.hpp
+[5.153s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__struct.hpp
+[5.153s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__traits.hpp
+[5.154s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__type_support.hpp
+[5.154s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__builder.hpp
+[5.154s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__struct.hpp
+[5.155s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__traits.hpp
+[5.155s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__type_support.hpp
+[5.156s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__builder.hpp
+[5.156s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__struct.hpp
+[5.157s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__traits.hpp
+[5.157s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__type_support.hpp
+[5.158s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__builder.hpp
+[5.162s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__struct.hpp
+[5.162s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__traits.hpp
+[5.162s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__type_support.hpp
+[5.162s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__builder.hpp
+[5.163s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__struct.hpp
+[5.165s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__traits.hpp
+[5.166s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__type_support.hpp
+[5.166s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/full_state.hpp
+[5.191s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/hover.hpp
+[5.198s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/log_block.hpp
+[5.203s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/log_data_generic.hpp
+[5.205s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/position.hpp
+[5.217s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.228s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/status.hpp
+[5.232s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/trajectory_polynomial_piece.hpp
+[5.238s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/velocity_world.hpp
+[5.242s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/add_logging.hpp
+[5.246s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/arm.hpp
+[5.247s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__builder.hpp
+[5.250s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__struct.hpp
+[5.250s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__traits.hpp
+[5.250s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__type_support.hpp
+[5.251s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__builder.hpp
+[5.252s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__struct.hpp
+[5.253s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__traits.hpp
+[5.255s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__type_support.hpp
+[5.259s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__builder.hpp
+[5.259s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__struct.hpp
+[5.260s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__traits.hpp
+[5.262s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__type_support.hpp
+[5.263s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__builder.hpp
+[5.266s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__struct.hpp
+[5.279s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__traits.hpp
+[5.279s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__type_support.hpp
+[5.279s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__builder.hpp
+[5.279s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__struct.hpp
+[5.279s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__traits.hpp
+[5.282s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__type_support.hpp
+[5.283s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__builder.hpp
+[5.285s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__struct.hpp
+[5.287s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__traits.hpp
+[5.287s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__type_support.hpp
+[5.290s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__builder.hpp
+[5.290s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__struct.hpp
+[5.290s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__traits.hpp
+[5.291s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__type_support.hpp
+[5.291s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__builder.hpp
+[5.293s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__struct.hpp
+[5.294s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__traits.hpp
+[5.294s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__type_support.hpp
+[5.296s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__builder.hpp
+[5.297s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__struct.hpp
+[5.297s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__traits.hpp
+[5.299s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__type_support.hpp
+[5.303s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__builder.hpp
+[5.306s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__struct.hpp
+[5.307s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__traits.hpp
+[5.307s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__type_support.hpp
+[5.307s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__builder.hpp
+[5.307s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__struct.hpp
+[5.307s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__traits.hpp
+[5.307s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__type_support.hpp
+[5.307s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__builder.hpp
+[5.307s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__struct.hpp
+[5.307s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__traits.hpp
+[5.316s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__type_support.hpp
+[5.316s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/go_to.hpp
+[5.317s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/land.hpp
+[5.317s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/notify_setpoints_stop.hpp
+[5.317s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/remove_logging.hpp
+[5.317s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/set_group_mask.hpp
+[5.322s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/start_trajectory.hpp
+[5.322s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/stop.hpp
+[5.322s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/takeoff.hpp
+[5.323s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/update_params.hpp
+[5.324s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/upload_trajectory.hpp
+[5.329s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__rosidl_typesupport_fastrtps_cpp.hpp
+[5.329s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.330s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__rosidl_typesupport_fastrtps_cpp.hpp
+[5.333s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__rosidl_typesupport_fastrtps_cpp.hpp
+[5.338s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__rosidl_typesupport_fastrtps_cpp.hpp
+[5.339s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__rosidl_typesupport_fastrtps_cpp.hpp
+[5.339s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[5.342s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.342s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__rosidl_typesupport_fastrtps_cpp.hpp
+[5.342s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__rosidl_typesupport_fastrtps_cpp.hpp
+[5.342s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.342s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__rosidl_typesupport_fastrtps_cpp.hpp
+[5.342s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__rosidl_typesupport_fastrtps_cpp.hpp
+[5.342s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__rosidl_typesupport_fastrtps_cpp.hpp
+[5.343s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__rosidl_typesupport_fastrtps_cpp.hpp
+[5.343s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__rosidl_typesupport_fastrtps_cpp.hpp
+[5.343s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__rosidl_typesupport_fastrtps_cpp.hpp
+[5.348s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__rosidl_typesupport_fastrtps_cpp.hpp
+[5.348s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[5.348s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__rosidl_typesupport_fastrtps_cpp.hpp
+[5.350s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__rosidl_typesupport_fastrtps_cpp.hpp
+[5.350s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__rosidl_typesupport_fastrtps_cpp.hpp
+[5.350s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[5.351s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__rosidl_typesupport_introspection_c.h
+[5.356s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__rosidl_typesupport_introspection_c.h
+[5.356s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__rosidl_typesupport_introspection_c.h
+[5.356s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__rosidl_typesupport_introspection_c.h
+[5.356s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__rosidl_typesupport_introspection_c.h
+[5.356s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__rosidl_typesupport_introspection_c.h
+[5.357s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__rosidl_typesupport_introspection_c.h
+[5.374s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__rosidl_typesupport_introspection_c.h
+[5.374s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__rosidl_typesupport_introspection_c.h
+[5.374s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__rosidl_typesupport_introspection_c.h
+[5.375s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.375s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__rosidl_typesupport_introspection_c.h
+[5.375s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__rosidl_typesupport_introspection_c.h
+[5.375s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__rosidl_typesupport_introspection_c.h
+[5.375s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__rosidl_typesupport_introspection_c.h
+[5.375s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__rosidl_typesupport_introspection_c.h
+[5.375s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__rosidl_typesupport_introspection_c.h
+[5.375s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__rosidl_typesupport_introspection_c.h
+[5.375s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__rosidl_typesupport_introspection_c.h
+[5.375s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__rosidl_typesupport_introspection_c.h
+[5.375s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__rosidl_typesupport_introspection_c.h
+[5.375s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__rosidl_typesupport_introspection_c.h
+[5.375s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__rosidl_typesupport_introspection_c.h
+[5.375s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics__rosidl_typesupport_introspection_cpp.hpp
+[5.376s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/connection_statistics_array__rosidl_typesupport_introspection_cpp.hpp
+[5.384s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/full_state__rosidl_typesupport_introspection_cpp.hpp
+[5.384s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/hover__rosidl_typesupport_introspection_cpp.hpp
+[5.384s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_block__rosidl_typesupport_introspection_cpp.hpp
+[5.384s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/log_data_generic__rosidl_typesupport_introspection_cpp.hpp
+[5.384s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[5.384s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[5.384s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/trajectory_polynomial_piece__rosidl_typesupport_introspection_cpp.hpp
+[5.385s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/velocity_world__rosidl_typesupport_introspection_cpp.hpp
+[5.385s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/add_logging__rosidl_typesupport_introspection_cpp.hpp
+[5.385s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/arm__rosidl_typesupport_introspection_cpp.hpp
+[5.385s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/go_to__rosidl_typesupport_introspection_cpp.hpp
+[5.385s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/land__rosidl_typesupport_introspection_cpp.hpp
+[5.388s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/notify_setpoints_stop__rosidl_typesupport_introspection_cpp.hpp
+[5.388s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/remove_logging__rosidl_typesupport_introspection_cpp.hpp
+[5.389s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/set_group_mask__rosidl_typesupport_introspection_cpp.hpp
+[5.390s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/start_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[5.390s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/stop__rosidl_typesupport_introspection_cpp.hpp
+[5.390s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/takeoff__rosidl_typesupport_introspection_cpp.hpp
+[5.394s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/update_params__rosidl_typesupport_introspection_cpp.hpp
+[5.394s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/srv/detail/upload_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[5.396s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/pythonpath.sh
+[5.398s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/pythonpath.dsv
+[5.402s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces-1.0.3-py3.12.egg-info/PKG-INFO
+[5.404s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces-1.0.3-py3.12.egg-info/SOURCES.txt
+[5.406s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces-1.0.3-py3.12.egg-info/dependency_links.txt
+[5.408s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces-1.0.3-py3.12.egg-info/top_level.txt
+[5.411s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/__init__.py
+[5.413s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_c.c
+[5.416s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.416s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.417s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_c.so
+[5.417s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.418s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.420s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/__init__.py
+[5.422s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_connection_statistics.py
+[5.426s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_connection_statistics_array.py
+[5.427s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_connection_statistics_array_s.c
+[5.429s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_connection_statistics_s.c
+[5.431s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_full_state.py
+[5.431s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_full_state_s.c
+[5.433s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_hover.py
+[5.435s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_hover_s.c
+[5.446s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_log_block.py
+[5.446s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_log_block_s.c
+[5.452s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_log_data_generic.py
+[5.452s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_log_data_generic_s.c
+[5.452s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_position.py
+[5.452s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_position_s.c
+[5.452s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_status.py
+[5.452s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_status_s.c
+[5.454s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_trajectory_polynomial_piece.py
+[5.456s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_trajectory_polynomial_piece_s.c
+[5.456s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_velocity_world.py
+[5.463s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg/_velocity_world_s.c
+[5.471s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/__init__.py
+[5.471s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_add_logging.py
+[5.475s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_add_logging_s.c
+[5.484s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_arm.py
+[5.485s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_arm_s.c
+[5.487s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_go_to.py
+[5.505s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_go_to_s.c
+[5.506s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_land.py
+[5.506s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_land_s.c
+[5.506s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_notify_setpoints_stop.py
+[5.506s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_notify_setpoints_stop_s.c
+[5.506s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_remove_logging.py
+[5.506s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_remove_logging_s.c
+[5.506s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_set_group_mask.py
+[5.531s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_set_group_mask_s.c
+[5.538s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_start_trajectory.py
+[5.538s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_start_trajectory_s.c
+[5.538s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_stop.py
+[5.538s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_stop_s.c
+[5.538s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_takeoff.py
+[5.538s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_takeoff_s.c
+[5.538s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_update_params.py
+[5.538s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_update_params_s.c
+[5.538s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_upload_trajectory.py
+[5.538s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv/_upload_trajectory_s.c
+[5.539s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.539s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.543s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_c.so
+[5.545s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/ConnectionStatistics.idl
+[5.545s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/ConnectionStatisticsArray.idl
+[5.545s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/FullState.idl
+[5.546s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/LogDataGeneric.idl
+[5.548s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Hover.idl
+[5.548s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/LogBlock.idl
+[5.548s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Position.idl
+[5.553s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Status.idl
+[5.554s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/TrajectoryPolynomialPiece.idl
+[5.554s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/VelocityWorld.idl
+[5.554s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/GoTo.idl
+[5.554s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Land.idl
+[5.554s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/NotifySetpointsStop.idl
+[5.563s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/SetGroupMask.idl
+[5.582s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/StartTrajectory.idl
+[5.584s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Stop.idl
+[5.584s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Takeoff.idl
+[5.597s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UpdateParams.idl
+[5.597s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UploadTrajectory.idl
+[5.597s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/RemoveLogging.idl
+[5.597s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/AddLogging.idl
+[5.597s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Arm.idl
+[5.604s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/ConnectionStatistics.msg
+[5.604s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/ConnectionStatisticsArray.msg
+[5.619s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/FullState.msg
+[5.619s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/LogDataGeneric.msg
+[5.619s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Hover.msg
+[5.619s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/LogBlock.msg
+[5.620s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Position.msg
+[5.634s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/Status.msg
+[5.634s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/TrajectoryPolynomialPiece.msg
+[5.634s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/VelocityWorld.msg
+[5.651s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/GoTo.srv
+[5.652s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Land.srv
+[5.652s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/NotifySetpointsStop.srv
+[5.655s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/SetGroupMask.srv
+[5.655s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/StartTrajectory.srv
+[5.655s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Stop.srv
+[5.655s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Takeoff.srv
+[5.655s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UpdateParams.srv
+[5.663s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/UploadTrajectory.srv
+[5.667s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/RemoveLogging.srv
+[5.670s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/AddLogging.srv
+[5.674s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/srv/Arm.srv
+[5.676s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/ament_index/resource_index/package_run_dependencies/crazyflie_interfaces
+[5.680s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/ament_index/resource_index/parent_prefix_path/crazyflie_interfaces
+[5.680s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/ament_prefix_path.sh
+[5.681s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/ament_prefix_path.dsv
+[5.684s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/path.sh
+[5.696s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/path.dsv
+[5.708s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.bash
+[5.708s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.sh
+[5.708s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.zsh
+[5.708s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.dsv
+[5.708s] -- Symlinking: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.dsv
+[5.745s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/ament_index/resource_index/packages/crazyflie_interfaces
+[5.755s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.756s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.759s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.759s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.764s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.765s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.765s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.768s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfacesConfig.cmake
+[5.772s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfacesConfig-version.cmake
+[5.772s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/package.xml
+[5.773s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_generator_c.so
+[5.780s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.783s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.784s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_introspection_c.so
+[5.787s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_c.so
+[5.791s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.791s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_cpp.so
+[5.882s] Listing '/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces'...
+[5.882s] Listing '/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/msg'...
+[5.883s] Listing '/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages/crazyflie_interfaces/srv'...
+[5.883s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_generator_py.so
+[5.884s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_cExport.cmake
+[5.885s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.885s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.886s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.886s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_cppExport.cmake
+[5.887s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.887s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.892s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.892s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.892s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport.cmake
+[5.892s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.893s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.893s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.894s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport.cmake
+[5.894s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.902s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_pyExport.cmake
+[5.902s] -- Up-to-date: /home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.907s] Invoked command in '/home/ubuntuuser/ros2_ws/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntuuser/ros2_ws/install/turtlebot_controller:/home/ubuntuuser/ros2_ws/install/crazyflie_py:/home/ubuntuuser/ros2_ws/install/crazyflie_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntuuser/ros2_ws/build/crazyflie_interfaces

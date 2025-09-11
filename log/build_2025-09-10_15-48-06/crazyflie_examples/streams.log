@@ -1,0 +1,109 @@
+[0.148s] Invoking command in '/home/ubuntuuser/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_py:/home/ubuntuuser/ros2_ws/install/turtlebot_controller:/home/ubuntuuser/ros2_ws/install/turtlebot3_simulations:/home/ubuntuuser/ros2_ws/install/turtlebot3_gazebo:/home/ubuntuuser/ros2_ws/install/turtlebot3_fake_node:/home/ubuntuuser/ros2_ws/install/crazyflie_sim:/home/ubuntuuser/ros2_ws/install/crazyflie_examples:/home/ubuntuuser/ros2_ws/install/crazyflie:/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:/home/ubuntuuser/ros2_ws/install/crazyflie_controller:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:/home/ubuntuuser/ros2_ws/install/turtlebot3_simulations:/home/ubuntuuser/ros2_ws/install/turtlebot3_gazebo:/home/ubuntuuser/ros2_ws/install/turtlebot3_fake_node:/home/ubuntuuser/ros2_ws/install/crazyflie_sim:/home/ubuntuuser/ros2_ws/install/crazyflie_examples:/home/ubuntuuser/ros2_ws/install/crazyflie:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntuuser/ros2_ws/install/turtlebot_controller:/home/ubuntuuser/ros2_ws/install/crazyflie_py:/home/ubuntuuser/ros2_ws/install/crazyflie_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntuuser/ros2_ws/install/crazyflie_py/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/turtlebot_controller/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/crazyflie_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/ubuntuuser/ros2_ws/build/crazyflie_examples -- -j4 -l4
+[0.578s] Built target ament_cmake_python_symlink_crazyflie_examples_setup
+[0.817s] Built target ament_cmake_python_symlink_crazyflie_examples
+[1.793s] running egg_info
+[1.854s] writing crazyflie_examples.egg-info/PKG-INFO
+[1.857s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[1.859s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[1.862s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[2.032s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[2.039s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[2.147s] Built target ament_cmake_python_build_crazyflie_examples_egg
+[3.384s] running install_scripts
+[3.574s] /usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[3.574s] !!
+[3.574s] 
+[3.574s]         ********************************************************************************
+[3.575s]         Please avoid running ``setup.py`` directly.
+[3.575s]         Instead, use pypa/build, pypa/installer or other
+[3.575s]         standards-based tools.
+[3.575s] 
+[3.575s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[3.575s]         ********************************************************************************
+[3.575s] 
+[3.575s] !!
+[3.576s]   self.initialize_options()
+[3.588s] running egg_info
+[3.712s] writing crazyflie_examples.egg-info/PKG-INFO
+[3.726s] writing dependency_links to crazyflie_examples.egg-info/dependency_links.txt
+[3.732s] writing entry points to crazyflie_examples.egg-info/entry_points.txt
+[3.735s] writing top-level names to crazyflie_examples.egg-info/top_level.txt
+[3.847s] reading manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[3.849s] writing manifest file 'crazyflie_examples.egg-info/SOURCES.txt'
+[4.354s] Installing arming script to scripts
+[4.354s] Installing cmd_full_state script to scripts
+[4.359s] Installing figure8 script to scripts
+[4.361s] Installing group_mask script to scripts
+[4.362s] Installing hello_world script to scripts
+[4.362s] Installing infinite_flight script to scripts
+[4.362s] Installing multi_trajectory script to scripts
+[4.363s] Installing nice_hover script to scripts
+[4.364s] Installing set_param script to scripts
+[4.364s] Installing swap script to scripts
+[4.534s] Built target ament_cmake_python_build_crazyflie_examples_scripts
+[4.620s] Invoked command in '/home/ubuntuuser/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_py:/home/ubuntuuser/ros2_ws/install/turtlebot_controller:/home/ubuntuuser/ros2_ws/install/turtlebot3_simulations:/home/ubuntuuser/ros2_ws/install/turtlebot3_gazebo:/home/ubuntuuser/ros2_ws/install/turtlebot3_fake_node:/home/ubuntuuser/ros2_ws/install/crazyflie_sim:/home/ubuntuuser/ros2_ws/install/crazyflie_examples:/home/ubuntuuser/ros2_ws/install/crazyflie:/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:/home/ubuntuuser/ros2_ws/install/crazyflie_controller:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:/home/ubuntuuser/ros2_ws/install/turtlebot3_simulations:/home/ubuntuuser/ros2_ws/install/turtlebot3_gazebo:/home/ubuntuuser/ros2_ws/install/turtlebot3_fake_node:/home/ubuntuuser/ros2_ws/install/crazyflie_sim:/home/ubuntuuser/ros2_ws/install/crazyflie_examples:/home/ubuntuuser/ros2_ws/install/crazyflie:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntuuser/ros2_ws/install/turtlebot_controller:/home/ubuntuuser/ros2_ws/install/crazyflie_py:/home/ubuntuuser/ros2_ws/install/crazyflie_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntuuser/ros2_ws/install/crazyflie_py/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/turtlebot_controller/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/crazyflie_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/ubuntuuser/ros2_ws/build/crazyflie_examples -- -j4 -l4
+[4.629s] Invoking command in '/home/ubuntuuser/ros2_ws/build/crazyflie_examples': AMENT_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_py:/home/ubuntuuser/ros2_ws/install/turtlebot_controller:/home/ubuntuuser/ros2_ws/install/turtlebot3_simulations:/home/ubuntuuser/ros2_ws/install/turtlebot3_gazebo:/home/ubuntuuser/ros2_ws/install/turtlebot3_fake_node:/home/ubuntuuser/ros2_ws/install/crazyflie_sim:/home/ubuntuuser/ros2_ws/install/crazyflie_examples:/home/ubuntuuser/ros2_ws/install/crazyflie:/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:/home/ubuntuuser/ros2_ws/install/crazyflie_controller:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:/home/ubuntuuser/ros2_ws/install/turtlebot3_simulations:/home/ubuntuuser/ros2_ws/install/turtlebot3_gazebo:/home/ubuntuuser/ros2_ws/install/turtlebot3_fake_node:/home/ubuntuuser/ros2_ws/install/crazyflie_sim:/home/ubuntuuser/ros2_ws/install/crazyflie_examples:/home/ubuntuuser/ros2_ws/install/crazyflie:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntuuser/ros2_ws/install/turtlebot_controller:/home/ubuntuuser/ros2_ws/install/crazyflie_py:/home/ubuntuuser/ros2_ws/install/crazyflie_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntuuser/ros2_ws/install/crazyflie_py/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/turtlebot_controller/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/crazyflie_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/ubuntuuser/ros2_ws/build/crazyflie_examples
+[4.718s] -- Install configuration: ""
+[4.719s] -- Execute custom install script
+[4.719s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.sh
+[4.719s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/pythonpath.dsv
+[4.719s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples-1.0.3-py3.12.egg-info/PKG-INFO
+[4.749s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples-1.0.3-py3.12.egg-info/SOURCES.txt
+[4.749s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples-1.0.3-py3.12.egg-info/dependency_links.txt
+[4.749s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples-1.0.3-py3.12.egg-info/entry_points.txt
+[4.749s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples-1.0.3-py3.12.egg-info/top_level.txt
+[4.749s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//arming
+[4.749s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//cmd_full_state
+[4.750s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//figure8
+[4.750s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//group_mask
+[4.751s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//hello_world
+[4.751s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//infinite_flight
+[4.751s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//multi_trajectory
+[4.751s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//nice_hover
+[4.752s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//set_param
+[4.753s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/crazyflie_examples//swap
+[4.753s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/__init__.py
+[4.753s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/arming.py
+[4.753s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/cmd_full_state.py
+[4.753s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/data/figure8.csv
+[4.753s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/data/multi_trajectory/traj0.csv
+[4.753s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/data/multi_trajectory/traj1.csv
+[4.754s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/figure8.py
+[4.754s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/group_mask.py
+[4.755s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/hello_world.py
+[4.755s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/infinite_flight.py
+[4.755s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/multi_trajectory.py
+[4.755s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/nice_hover.py
+[4.755s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/set_param.py
+[4.756s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/swap.py
+[4.756s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//config/nav2_params.yaml
+[4.756s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//config/nav2_view.rviz
+[4.756s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//config/slam_params.yaml
+[4.757s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.data
+[4.757s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.pgm
+[4.758s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.posegraph
+[4.758s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//data/map.yaml
+[4.759s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/keyboard_velmux_launch.py
+[4.760s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/launch.py
+[4.762s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_mapping_launch.py
+[4.763s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_nav2_launch.py
+[4.763s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples//launch/multiranger_simple_mapper_launch.py
+[4.765s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/package_run_dependencies/crazyflie_examples
+[4.765s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/parent_prefix_path/crazyflie_examples
+[4.766s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.sh
+[4.766s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/ament_prefix_path.dsv
+[4.767s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/path.sh
+[4.767s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/environment/path.dsv
+[4.768s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.bash
+[4.769s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.sh
+[4.770s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.zsh
+[4.771s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/local_setup.dsv
+[4.771s] -- Symlinking: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.dsv
+[4.819s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/ament_index/resource_index/packages/crazyflie_examples
+[4.820s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig.cmake
+[4.820s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/cmake/crazyflie_examplesConfig-version.cmake
+[4.824s] -- Up-to-date symlink: /home/ubuntuuser/ros2_ws/install/crazyflie_examples/share/crazyflie_examples/package.xml
+[4.973s] Listing '/home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples'...
+[4.973s] Listing '/home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/data'...
+[4.973s] Listing '/home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages/crazyflie_examples/data/multi_trajectory'...
+[4.977s] Invoked command in '/home/ubuntuuser/ros2_ws/build/crazyflie_examples' returned '0': AMENT_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_py:/home/ubuntuuser/ros2_ws/install/turtlebot_controller:/home/ubuntuuser/ros2_ws/install/turtlebot3_simulations:/home/ubuntuuser/ros2_ws/install/turtlebot3_gazebo:/home/ubuntuuser/ros2_ws/install/turtlebot3_fake_node:/home/ubuntuuser/ros2_ws/install/crazyflie_sim:/home/ubuntuuser/ros2_ws/install/crazyflie_examples:/home/ubuntuuser/ros2_ws/install/crazyflie:/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:/home/ubuntuuser/ros2_ws/install/crazyflie_controller:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces:/home/ubuntuuser/ros2_ws/install/turtlebot3_simulations:/home/ubuntuuser/ros2_ws/install/turtlebot3_gazebo:/home/ubuntuuser/ros2_ws/install/turtlebot3_fake_node:/home/ubuntuuser/ros2_ws/install/crazyflie_sim:/home/ubuntuuser/ros2_ws/install/crazyflie_examples:/home/ubuntuuser/ros2_ws/install/crazyflie:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/ubuntuuser/ros2_ws/install/turtlebot_controller:/home/ubuntuuser/ros2_ws/install/crazyflie_py:/home/ubuntuuser/ros2_ws/install/crazyflie_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntuuser/ros2_ws/install/crazyflie_py/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/crazyflie_interfaces/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/turtlebot_controller/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/crazyflie_sim/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/crazyflie_examples/lib/python3.12/site-packages:/home/ubuntuuser/ros2_ws/install/crazyflie_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/ubuntuuser/ros2_ws/build/crazyflie_examples

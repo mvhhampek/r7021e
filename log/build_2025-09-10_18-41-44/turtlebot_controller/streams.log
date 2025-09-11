@@ -1,0 +1,27 @@
+[2.812s] Invoking command in '/home/ubuntuuser/ros2_ws/src/turtlebot_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntuuser/ros2_ws/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntuuser/ros2_ws/install/turtlebot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot_controller build --build-base /home/ubuntuuser/ros2_ws/build/turtlebot_controller/build install --record /home/ubuntuuser/ros2_ws/build/turtlebot_controller/install.log --single-version-externally-managed install_data
+[3.379s] running egg_info
+[3.436s] writing ../../build/turtlebot_controller/turtlebot_controller.egg-info/PKG-INFO
+[3.437s] writing dependency_links to ../../build/turtlebot_controller/turtlebot_controller.egg-info/dependency_links.txt
+[3.439s] writing entry points to ../../build/turtlebot_controller/turtlebot_controller.egg-info/entry_points.txt
+[3.440s] writing requirements to ../../build/turtlebot_controller/turtlebot_controller.egg-info/requires.txt
+[3.442s] writing top-level names to ../../build/turtlebot_controller/turtlebot_controller.egg-info/top_level.txt
+[3.529s] reading manifest file '../../build/turtlebot_controller/turtlebot_controller.egg-info/SOURCES.txt'
+[3.530s] writing manifest file '../../build/turtlebot_controller/turtlebot_controller.egg-info/SOURCES.txt'
+[3.532s] running build
+[3.532s] running build_py
+[3.533s] copying turtlebot_controller/controller3.py -> /home/ubuntuuser/ros2_ws/build/turtlebot_controller/build/lib/turtlebot_controller
+[3.534s] copying turtlebot_controller/controller.py -> /home/ubuntuuser/ros2_ws/build/turtlebot_controller/build/lib/turtlebot_controller
+[3.536s] running install
+[3.576s] running install_lib
+[3.579s] copying /home/ubuntuuser/ros2_ws/build/turtlebot_controller/build/lib/turtlebot_controller/controller3.py -> /home/ubuntuuser/ros2_ws/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller
+[3.579s] copying /home/ubuntuuser/ros2_ws/build/turtlebot_controller/build/lib/turtlebot_controller/controller.py -> /home/ubuntuuser/ros2_ws/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller
+[3.581s] byte-compiling /home/ubuntuuser/ros2_ws/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller/controller3.py to controller3.cpython-312.pyc
+[3.585s] byte-compiling /home/ubuntuuser/ros2_ws/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller/controller.py to controller.cpython-312.pyc
+[3.588s] running install_data
+[3.593s] running install_egg_info
+[3.644s] removing '/home/ubuntuuser/ros2_ws/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[3.667s] Copying ../../build/turtlebot_controller/turtlebot_controller.egg-info to /home/ubuntuuser/ros2_ws/install/turtlebot_controller/lib/python3.12/site-packages/turtlebot_controller-0.0.0-py3.12.egg-info
+[3.667s] running install_scripts
+[4.062s] Installing controller script to /home/ubuntuuser/ros2_ws/install/turtlebot_controller/lib/turtlebot_controller
+[4.063s] writing list of installed files to '/home/ubuntuuser/ros2_ws/build/turtlebot_controller/install.log'
+[4.152s] Invoked command in '/home/ubuntuuser/ros2_ws/src/turtlebot_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntuuser/ros2_ws/build/turtlebot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntuuser/ros2_ws/install/turtlebot_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot_controller build --build-base /home/ubuntuuser/ros2_ws/build/turtlebot_controller/build install --record /home/ubuntuuser/ros2_ws/build/turtlebot_controller/install.log --single-version-externally-managed install_data
