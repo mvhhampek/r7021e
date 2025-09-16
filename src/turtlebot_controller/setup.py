@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'controller = turtlebot_controller.controller:main'
+            'controller = turtlebot_controller.controller:main',
+            'waypointer = turtlebot_controller.waypointer:main'
         ],
     },
 )

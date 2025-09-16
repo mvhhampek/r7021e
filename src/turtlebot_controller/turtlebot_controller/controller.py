@@ -11,8 +11,6 @@ import matplotlib.pyplot as plt
 
 """
 Controller that receives goal position and uses PID to control linear and angular velocity
-
-
 """
 
 
@@ -44,13 +42,18 @@ class TurtlebotController(Node):
 
         # PID / control parameters
         self.Kp = 1.2
-        self.Ki = 0.0
+        self.Ki = 0.01
         self.Kh = 2.0
         self.dt = 0.1
-        self.v_max = 0.7
+        self.v_max = 1.0
         self.w_max = 2.5
-        self.d_star = 0.1
+        self.d_star = 0.0
+
+        # moving window integral error (only last N errors)
         self.e_int = 0.0
+        self.window_size = 20
+        self.e_index = 0
+        self.e_window = [0.0] * self.window_size
 
         # Timer for control loop
         self.timer = self.create_timer(self.dt, self.control_loop)
@@ -75,12 +78,16 @@ class TurtlebotController(Node):
         self.y_star = msg.y
         self.traj_x.append(msg.x)
         self.traj_y.append(msg.y)
-        self.get_logger().info(f"Received waypoint: x={msg.x:.2f}, y={msg.y:.2f}")
+        #self.get_logger().info(f"Received waypoint: x={msg.x:.2f}, y={msg.y:.2f}")
 
     def control_loop(self):
         # Compute errors
         e = math.hypot(self.x_star - self.x, self.y_star - self.y) - self.d_star
-        self.e_int += e * self.dt
+        
+        # integral window
+        self.e_window[self.e_index] = e * self.dt
+        self.e_index = (self.e_index + 1) % self.window_size
+        self.e_int = sum(self.e_window)
 
         # Linear velocity
         v = self.Kp * e + self.Ki * self.e_int
@@ -103,9 +110,10 @@ class TurtlebotController(Node):
 
         # Logging
         self.get_logger().info(
-            f"Robot pos: ({self.x:.2f},{self.y:.2f}), "
-            f"Target: ({self.x_star:.2f},{self.y_star:.2f}), "
-            f"Vel cmd: linear={v:.2f}, angular={a:.2f}"
+            f"pos:({self.x:.2f},{self.y:.2f}), "
+            f"ref:({self.x_star:.2f},{self.y_star:.2f}), "
+            f"cmd:(v:{v:.2f},w:{a:.2f}), "
+            f"e:({e:.3f}, int:{self.e_int:.3f})"
         )
 
     def plot(self, fname='figure8.png'):

@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import TwistStamped, Twist
+from geometry_msgs.msg import TwistStamped, Twist, Point
 from nav_msgs.msg import Odometry
 import math
 
@@ -9,139 +9,142 @@ matplotlib.use('Agg')
 
 import matplotlib.pyplot as plt
 
+"""
+Controller that receives goal position and uses PID to control linear and angular velocity
+"""
+
+
 class TurtlebotController(Node):
     def __init__(self):
-        super().__init__('turtlebot_controller')
-        
-        self.cmd_pub = self.create_publisher(Twist, '/cmd_vel', 10)
+        super().__init__('controller')
+
+        # Subscribers
         self.odom_sub = self.create_subscription(Odometry, '/odom', self.odom_callback, 10)
-        
-        self.timer = self.create_timer(0.1, self.control_loop)
-        self.dt = 0.1
-        
-        # vel
+        self.wp_sub = self.create_subscription(Point, '/waypoint', self.wp_callback, 10)
+
+        # Publisher
+        self.cmd_pub = self.create_publisher(TwistStamped, '/cmd_vel', 10)
+
+        # Robot state
+        self.x = 0.0
+        self.y = 0.0
+        self.theta = 0.0
+
+        # Target waypoint
+        self.x_star = 0.0
+        self.y_star = 0.0
+
+        # Trajectory tracking
+        self.traj_x = []  # waypoints received
+        self.traj_y = []
+        self.path_x = []  # actual robot path
+        self.path_y = []
+
+        # PID / control parameters
         self.Kp = 1.2
-        self.Ki = 0.00 # integral part is fake anyway
-        self.v_max = 0.7
-        self.e_int = 0 # integral error
-        
-        # heading
+        self.Ki = 0.01
         self.Kh = 2.0
+        self.dt = 0.1
+        self.v_max = 1.0
         self.w_max = 2.5
+        self.d_star = 0.0
 
-        self.d_star = 0.1
+        # moving window integral error (only last N errors)
+        self.e_int = 0.0
+        self.window_size = 20
+        self.e_index = 0
+        self.e_window = [0.0] * self.window_size
 
-        self.t = 0 
-        self.x = 0
-        self.y = 0
-        self.theta = 0 
-        
-        #plt
-        self.traj_x, self.traj_y = [], []
-        self.path_x, self.path_y = [], []
-        
+        # Timer for control loop
+        self.timer = self.create_timer(self.dt, self.control_loop)
+
+        self.get_logger().info("Controller node running")
+
     def odom_callback(self, msg):
+        # Update robot pose
         self.x = msg.pose.pose.position.x
         self.y = msg.pose.pose.position.y
-
-        # manual quaternion to euler xd
-        q = msg.pose.pose.orientation
-        n = (q.x * q.x + q.y * q.y + q.z * q.z + q.w * q.w)**2
-        x,y,z,w = q.x/n, q.y/n, q.z/n, q.w/n 
-        yaw = math.atan2(2.0 * (w*z + x*y), 1.0 - 2.0*(y*y+z*z))
-        self.theta = yaw
-        
-
-
-    def control_loop(self):
-        self.t += self.dt
-        
-        # 8 trajectory (surely)
-        x_star = 2.5 * math.sin(0.10*self.t)
-        y_star = 2.5 * math.sin(0.10*self.t) * math.cos(0.10 * self.t)
-        
-        # line trajectory
-       # x_star = 0.2*self.t
-       # y_star = 0.2*self.t
-
-        self.traj_x.append(x_star)
-        self.traj_y.append(y_star)
         self.path_x.append(self.x)
         self.path_y.append(self.y)
+
+        q = msg.pose.pose.orientation
+        siny_cosp = 2.0 * (q.w * q.z + q.x * q.y)
+        cosy_cosp = 1.0 - 2.0 * (q.y * q.y + q.z * q.z)
+        self.theta = math.atan2(siny_cosp, cosy_cosp)
+
+    def wp_callback(self, msg):
+        # Receive new waypoint
+        self.x_star = msg.x
+        self.y_star = msg.y
+        self.traj_x.append(msg.x)
+        self.traj_y.append(msg.y)
+        #self.get_logger().info(f"Received waypoint: x={msg.x:.2f}, y={msg.y:.2f}")
+
+    def control_loop(self):
+        # Compute errors
+        e = math.hypot(self.x_star - self.x, self.y_star - self.y) - self.d_star
         
-        # position
-        e = math.hypot(x_star - self.x, y_star - self.y) - self.d_star
-        self.e_int += e * self.dt
-        self.e_int = 0
-        #self.e_int = max(min(self.e_int, 1.0), -1.0) 
-        
+        # integral window
+        self.e_window[self.e_index] = e * self.dt
+        self.e_index = (self.e_index + 1) % self.window_size
+        self.e_int = sum(self.e_window)
+
+        # Linear velocity
         v = self.Kp * e + self.Ki * self.e_int
-        
         v = max(min(v, self.v_max), -self.v_max)
 
-
-        # heading
-        theta_star = math.atan2(y_star - self.y, x_star - self.x)
+        # Angular velocity
+        theta_star = math.atan2(self.y_star - self.y, self.x_star - self.x)
         a = self.Kh * (theta_star - self.theta)
-
         a = (a + math.pi) % (2 * math.pi) - math.pi
         a = max(min(a, self.w_max), -self.w_max)
-        
 
+        # Publish TwistStamped
         twist = Twist()
         twist.linear.x = v
         twist.angular.z = a
+        ts = TwistStamped()
+        ts.twist = twist
+        ts.header.stamp = self.get_clock().now().to_msg()
+        self.cmd_pub.publish(ts)
 
-        #ts = TwistStamped()
-        #ts.twist = twist
-        #ts.header.stamp = self.get_clock().now().to_msg()
-        #ts.header.frame_id = ''
+        # Logging
+        self.get_logger().info(
+            f"pos:({self.x:.2f},{self.y:.2f}), "
+            f"ref:({self.x_star:.2f},{self.y_star:.2f}), "
+            f"cmd:(v:{v:.2f},w:{a:.2f}), "
+            f"e:({e:.3f}, int:{self.e_int:.3f})"
+        )
 
-        self.cmd_pub.publish(twist)
-        
-        self.get_logger().info(f'v: {v},,,,,,,,,, a: {a}')
-        
-        
-    def plot(self, fname='plt.png', show=False):
+    def plot(self, fname='figure8.png'):
         if not self.traj_x or not self.path_x:
+            self.get_logger().warn("No data to plot")
             return
-            
-        #self.get_logger().info(f'end time: {self.t}')
-        #self.get_logger().info(f'{self.path_x[100:110]}')
-        
+
         plt.figure()
-        plt.plot(self.traj_x, self.traj_y, label = "desired traj")
-        plt.plot(self.path_x, self.path_y, label = "burger path")
+        plt.plot(self.traj_x, self.traj_y, linewidth = '5', label="Desired Trajectory")
+        plt.plot(self.path_x, self.path_y, label="Actual Robot Path")
         plt.axis('equal')
         plt.grid(True)
         plt.legend()
-        plt.title(f"end time: {self.t}")
+        plt.title("Figure-8 Trajectory Tracking")
         plt.savefig(fname, dpi=150)
-        if show:
-            plt.show()
         plt.close()
-    
-def main(args = None):
+        self.get_logger().info(f"Trajectory plot saved to {fname}")
+
+
+def main(args=None):
     rclpy.init(args=args)
     node = TurtlebotController()
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
-        twist = Twist()
-        twist.linear.x = 0
-        twist.angular.z = 0
-
-        #ts = TwistStamped()
-        #ts.twist = twist
-        #ts.header.stamp = 0
-        #ts.header.frame_id = ''
-
-        node.cmd_pub.publish(twist)
-
+        pass
     finally:
-        node.plot('figure8.png', False)
+        node.plot('figure8.png')
         node.destroy_node()
         rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()
