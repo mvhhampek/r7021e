@@ -41,8 +41,8 @@ class TurtlebotController(Node):
         self.path_y = []
 
         # PID / control parameters
-        self.Kp = 1.2
-        self.Ki = 0.01
+        self.Kp = 2.0
+        self.Ki = 0.025
         self.Kh = 2.0
         self.dt = 0.1
         self.v_max = 1.0

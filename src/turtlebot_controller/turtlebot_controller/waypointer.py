@@ -76,8 +76,12 @@ class WayPointer(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-    # Example: figure-8 trajectory
-    waypoints = [(math.sin(0.1*t), math.sin(0.1*t)*math.cos(0.1*t)) for t in range(100)]
+    # figure-8 trajectory
+    # waypoints = [(math.sin(0.1*t), math.sin(0.1*t)*math.cos(0.1*t)) for t in range(100)]
+    
+    #line
+    waypoints = [(0.1*t, 0.0) for t in range(100)]
+
     node = WayPointer(waypoints)
     try:
         rclpy.spin(node)
