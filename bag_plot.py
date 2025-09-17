@@ -4,9 +4,9 @@ from rosidl_runtime_py.utilities import get_message
 from rclpy.serialization import deserialize_message
 
 
-BAG_DIR = "/rosbag2_2025_09_17-17_08_54"
+BAG_DIR = "/home/ubuntuuser/ros2_ws/rosbag2_2025_09_17-17_08_54"
 ODOM_TOPIC = "/odom"
-WPS_TOPIC = "/waypoints"
+WPS_TOPIC = "/waypoint"
 
 
 def pose_xy(p):
@@ -15,22 +15,7 @@ def pose_xy(p):
 
 
 def extract_waypoints_xy(msg):
-    xs, ys = [], []
-    if hasattr(msg, "poses"):
-        for p in msg.poses:
-            x, y = pose_xy(p)
-            xs.append(x)
-            ys.append(y)
-    elif hasattr(msg, "waypoints"):
-        for p in msg.waypoints:
-            x, y = pose_xy(p)
-            xs.append(x)
-            ys.append(y)
-    elif hasattr(msg, "pose"):
-        x, y = pose_xy(msg.pose)
-        xs.append(x)
-        ys.append(y)
-    return xs, ys
+    return [msg.x], [msg.y]
 
 
 def main():
@@ -57,17 +42,33 @@ def main():
             xs_o.append(msg.pose.pose.position.x)
             ys_o.append(msg.pose.pose.position.y)
         elif tp == WPS_TOPIC:
-            last_wp_serialized = data
+            msg = deserialize_message(data, WpT)
+            x, y = extract_waypoints_xy(msg)
+            xs_w.extend(x)
+            ys_w.extend(y)
 
     if last_wp_serialized:
         wp_msg = deserialize_message(last_wp_serialized, WpT)
         xs_w, ys_w = extract_waypoints_xy(wp_msg)
+
+    print(f"Odom points: {len(xs_o)}")
+    print(f"Waypoint points: {len(xs_w)}")
+    print(f"Odom x range: {min(xs_o)} to {max(xs_o)}")
+    print(f"Odom y range: {min(ys_o)} to {max(ys_o)}")
+    print(f"Waypoint x range: {min(xs_w)} to {max(xs_w)}")
+    print(f"Waypoint y range: {min(ys_w)} to {max(ys_w)}")
+
 
     plt.plot(xs_o, ys_o, label="odom")
     if xs_w:
         plt.scatter(xs_w, ys_w, s=20, label="waypoints")
     ax = plt.gca()
     ax.set_aspect("equal", adjustable="box")
+    
+    plt.xlim(-0.5, 2.5)
+    plt.ylim(-1, 1) 
+
+
     plt.xlabel("x")
     plt.ylabel("y")
     plt.legend()
